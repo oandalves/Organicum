@@ -28,7 +28,7 @@ class CreateFairsTable extends Migration
             $table->string('station');
             $table->string('country');
             $table->string('name');
-            $table->text('text');
+            $table->string('text');
             $table->string('days');
             $table->string('image');
             $table->integer('ddd');

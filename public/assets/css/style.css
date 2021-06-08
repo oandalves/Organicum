@@ -1,0 +1,79 @@
+:root {
+    --green: #98C945;
+    --green-light: #D1F12B;
+    --green-dark: #578D0B;
+    --brown: #444735;
+    --brown-ligth: #505340;
+    --brown-dark: #383B2A;
+    --caramel: #DE9331;
+    --caramel-light: #F9B654;
+    --caramel-dark: #BE6E0F;
+    --pink: #EF6162;
+    --blue: #17a2b8;
+}
+
+.form-title {
+    display: block;
+    font-size: large;
+    border-bottom: 1px solid#ddd;
+    margin: 2em 0;
+}
+
+.form-subtitle {
+    display: block;
+    margin: 2em 0;
+    background-color: var(--caramel-light);
+    padding: 1em 1em;
+}
+
+
+/* BUTTON
+-------------------------------------------------- */
+
+.form-buttons {
+    display: block;
+    margin: 2em 0;
+}
+
+.form-inho {
+    display: block;
+    margin: 0.5em 0;
+}
+
+.button-organicum-neutro {
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+    padding: 0.5em 2em;
+    color: white;
+    font-weight: bolder;
+}
+
+.button-organicum-neutro:hover {
+    border: 2px solid var(--blue);
+    background-color: white;
+    color: var(--blue);
+}
+
+.button-organicum-cancelar {
+    background-color: var(--pink);
+    border: 2px solid var(--pink);
+    padding: 0.5em 2em;
+    color: white;
+    font-weight: bolder;
+}
+
+.button-organicum-cancelar:hover {
+    border: 2px solid var(--pink);
+    background-color: white;
+    color: var(--pink);
+}
+
+.button-organicum-neutro {}
+
+.formation-text {
+    margin: 10px 0px;
+}
+
+.linha {
+    border-bottom: 1px solid #ccc;
+}
